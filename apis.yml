@@ -1,7 +1,29 @@
 aid: tidemark
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tidemark.png
 name: Tidemark
-description: Tidemark is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tidemark is enterprise financial and operational planning software for
+  continuous, extended, and driver-based planning. It provides scenario
+  ("what-if") modeling, workflow and approvals, and real-time data
+  integration across 140+ ERP and EPM systems for budgeting, forecasting,
+  and strategic planning. Founded as a venture-backed cloud analytics and
+  enterprise performance management (EPM) company and counted among the
+  Andreessen Horowitz (a16z) portfolio, Tidemark was later acquired and is
+  now offered as a product within the insightsoftware family. It has no
+  publicly documented API, SDK, or developer portal; integration is
+  delivered through pre-built ERP/EPM connectors rather than a public
+  developer program.
 url: https://raw.githubusercontent.com/api-evangelist/tidemark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +31,29 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: insightsoftware
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Enterprise Performance Management
+- Financial Planning
+- Budgeting and Forecasting
+- Analytics
+- Planning Software
+- a16z Portfolio
+common:
+- type: DomainSecurity
+  url: security/tidemark-domain-security.yml
+- type: Website
+  url: https://www.tidemark.com
 apis: []
 maintainers:
 - FN: Kin Lane
